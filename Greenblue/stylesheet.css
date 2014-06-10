@@ -1,0 +1,96 @@
+table{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scoreboard{
+	font-family: "Tahoma";
+	color: #6e8787;
+	font-size: 30px;
+	text-align: center;
+}
+
+#cube{
+    height: 250px;
+    width: 250px;
+    border-radius: 80%;
+    margin: auto;
+}
+
+.choise{
+    padding-top: 300px;
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+}
+
+#green{
+    margin: 0px -2px 0px 0px;
+    background-color: #99ffd1;
+    background: -webkit-linear-gradient(top, rgba(153, 255, 209, 0) 0%, rgba(153, 255, 209, 1) 40%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(153, 255, 209, 0) 0%, rgba(153, 255, 209, 1) 40%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(153, 255, 209, 0) 0%, rgba(153, 255, 209, 1) 40%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(153, 255, 209, 0) 0%, rgba(153, 255, 209, 1) 40%); /* Standard syntax (must be last) */
+}
+
+#blue{
+    margin: 0px 0px 0px -2px;
+    background-color: #99d8ff;
+    background: -webkit-linear-gradient(top, rgba(153, 216, 255, 0), rgba(153, 216, 255, 1) 40%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(153, 216, 255, 0), rgba(153, 216, 255, 1) 40%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(153, 216, 255, 0), rgba(153, 216, 255, 1) 40%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(153, 216, 255, 0) 0%, rgba(153, 216, 255, 1) 40%); /* Standard syntax (must be last) */
+}
+
+.inner{
+    font-family: "Tahoma";
+    color: #fff;
+    font-size: 50px;
+    text-shadow: -1px 1px #6B6B6B;
+}
+
+.point{
+    font-family: "Tahoma";
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 70px;
+    display: none;
+    text-shadow: -1px 1px #6B6B6B;
+}
+
+/* Game Over */
+body.game-over #cube{
+    background-color: #FF5E5E!important;
+}
+
+/* Reset button */
+div.reset{
+    display: none;
+}
+body.game-over div.reset{
+    display: block;
+}
+
+.myButton {
+    background-color:#ffffff;
+    -moz-border-radius:42px;
+    -webkit-border-radius:42px;
+    border-radius:42px;
+    border:1px solid #a1a1a1;
+    display:inline-block;
+    cursor:pointer;
+    color:#6e8787;
+    font-family:Verdana;
+    font-size:20px;
+    padding:4px 26px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+    background-color:#fafafa;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
